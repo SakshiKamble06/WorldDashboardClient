@@ -1,0 +1,100 @@
+.stats-card {
+  border: none;
+  border-radius: 15px;
+  height: 200px;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.stats-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card-number {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.card-text {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+.language-chart-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.chart-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.language-row {
+  margin-bottom: 16px;
+}
+
+.language-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.language-name {
+  font-weight: 600;
+  color: #334155;
+}
+
+.language-value {
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.progress-container {
+  width: 100%;
+  height: 14px;
+  background: #e2e8f0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 30px;
+  transition: width 0.8s ease-in-out;
+}
+.dashboard-card,
+.chart-card,
+.life-card {
+  background: #ffffff;
+  border: 2px solid #6366f1;
+  border-radius: 18px;
+  min-height: 450px;
+  overflow: visible;
+  padding: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover,
+.chart-card:hover,
+.life-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.2);
+}
